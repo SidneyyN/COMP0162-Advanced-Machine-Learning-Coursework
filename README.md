@@ -1,6 +1,11 @@
 # COMP0162-Advanced-Machine-Learning-Coursework
 In this coursework, we are working on a volatility forecasting model using LSTM, and we are comparing it against traditional methods like GARCH. We want to see if an LSTM is able to outperform short-term equity market volatilty forecasting out-of-sample. Our target variable would be the future 5-day realised volatility. 
 
+# To replicate setup
+Please run 
+pip install -r requirements.txt 
+to set up 
+
 # Models and Benchmarks
 1. Historical Volatility
 take the last m returns -> square them -> average them -> square-root -> annualise
